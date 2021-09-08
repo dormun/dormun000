@@ -1,0 +1,25 @@
+.titles {font-size: x-large;
+font-family: font-family: 'Urbanist', sans-serif; ;
+color: white  ;}
+
+
+.position { padding-right: 100px;
+padding-left: 100px;
+padding-bottom: 100px;
+padding-top: 100px;
+border-style: dotted;}
+
+.contenedor{ width: 90%;
+margin: auto;}
+
+header {padding: 15px;}
+
+
+.caja {
+   display: flex;}
+
+   section { display: flex ;
+    flex-wrap: nowrap;}
+
+    
+.art1{width: 100%; justify-content: space-between;}
