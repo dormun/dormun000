@@ -1,7 +1,10 @@
 .titles {font-size: x-large; 
 color:white;}
 
-body {font-family: 'Lato', sans-serif!important;}
+body {font-family: 'Lato', sans-serif!important;
+  margin: 0;
+
+}
 
 .position { padding-right: 100px;
 padding-left: 100px;
@@ -14,7 +17,7 @@ justify-content: space-between;
 width: 100%;
 height:100%;
 align-items: top;
-margin-top: 3rem;
+padding-top: 3rem;
 position: relative;
 z-index: 500;
 background: rgb(0,0,0);
@@ -22,7 +25,10 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6334908963585
 
 }
 
-.titulo {margin-left: 3rem;}
+.titulo {margin-left: 3rem;
+  position: relative;
+  z-index:200;
+}
 
 
 .nav a{ margin-right: 2rem; 
@@ -62,68 +68,33 @@ z-index: 450!important;
 .art1{width: 100%; justify-content: space-between;}
 
 
-html,
-      body {
-        position: relative;
-        height: 100%;
-      }
-
-      body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-      }
-
-      .swiper {
-        width: 100%;
-        height: 100%;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
 
 
-      .mySwiper {position:absolute!important;
-      top:0!important;
-    z-index: 400;
-  height: 60%;}
-
-
-    .peliculas {
+.peliculas {
   
-      width: 80%;
-      display: block;
-    justify-self: center;
+width: 80%;
+ display: block;
+justify-self: center;
    
   position: absolute;
 z-index:400;
-margin: 300px auto 0 auto!important;
+margin: 600px auto 0 auto!important;
 }
+
+.label {display:block;
+margin-top: 0.5rem;
+}
+
+.hidden {display: none !important;}
+
+.banner {position: absolute;
+top: 0;
+z-index: 1;
+width:100% ;
+}
+.banner img {width:100%;}
+
+.nav {position: relative;
+  z-index:200;
+  }
 
