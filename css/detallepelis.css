@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+
+img{
+    height: 520px;
+}
+.titles {font-size: x-large; 
+    color:white;}
+
+    body {font-family: 'Lato', sans-serif!important;}
+
+.position { padding-right: 100px;
+padding-left: 100px;
+padding-bottom: 100px;
+padding-top: 100px;
+border-style: dotted;}
+
+.contenedor{ 
+    display: flex;
+justify-content: space-between;
+width: 100%;
+height:100%;
+align-items: top;
+margin-top: 3rem;
+position: relative;
+z-index: 500;
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6334908963585435) 57%, rgba(0,0,0,0) 100%);
+
+}
+
+.titulo {margin-left: 3rem;}
+
+
+.nav a{ margin-right: 2rem; 
+    margin-top:2rem;}
+
+
+
+header {height: 30%}
+.flexPadre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 550px;
+    background-color: rgba(131, 151, 175, 0.603);
+    padding: 12px;
+    text-decoration: none;
+}
+.photo-container{
+    width: 30%;
+}
+.titulo{
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.detallePelisParrafo{
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: justify;
+    text-decoration: none;
+    display: flex;
+    background-color: rgba(28, 69, 116, 0.5);
+    justify-content: flex-end;
+    padding: 12px;
+    width: 70%;
+    flex-direction: column;
+}
+
+@media(min-width:426px){
+    
+}
