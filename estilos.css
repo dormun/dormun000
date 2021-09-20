@@ -1,38 +1,39 @@
 .titles {font-size: x-large; 
 color:white;}
 
-body {font-family: 'Lato', sans-serif!important;
-  margin: 0;
 
-}
 
-.position { padding-right: 100px;
-padding-left: 100px;
-padding-bottom: 100px;
-padding-top: 100px;
-border-style: dotted;}
+body {font-family: 'Lato', sans-serif;
+margin: 0;} 
+
+
+
 
 .contenedor{ display: flex;
 justify-content: space-between;
 width: 100%;
 height:100%;
-align-items: top;
+align-items: center;
 padding-top: 3rem;
 position: relative;
 z-index: 500;
 background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6334908963585435) 57%, rgba(0,0,0,0) 100%);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6334908963585435) 57%, rgba(0,0,0,0) 100%);}
 
-}
+
+  
+
 
 .titulo {margin-left: 3rem;
   position: relative;
-  z-index:200;
-}
+  z-index:200;}
+
 
 
 .nav a{ margin-right: 2rem; 
-    margin-top:2rem;}
+    margin-top:2rem;
+    color: white;
+    text-decoration: none;}
 
 
 
@@ -46,55 +47,66 @@ background: rgb(0,0,0);
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6334908963585435) 57%, rgba(0,0,0,0) 100%);
 margin-top:-80px;
 position: relative;
-z-index: 450!important;
-}
-
-
-
-
-
-
-
+z-index: 450!important;}
 
 
 
 .caja {
    display: flex;}
 
-   section { display: flex ;
+
+
+
+ section { display: flex ;
     flex-wrap: nowrap;}
 
-    
+
+
+
 .art1{width: 100%; justify-content: space-between;}
 
 
 
-
-.peliculas {
-  
+.peliculas { 
 width: 80%;
- display: block;
-justify-self: center;
-   
-  position: absolute;
+display: block;
+justify-self: center; 
+position: absolute;
 z-index:400;
-margin: 600px auto 0 auto!important;
-}
+margin: 750px auto 0 auto!important;}
 
-.label {display:block;
-margin-top: 0.5rem;
-}
+
+
+
 
 .hidden {display: none !important;}
+
+
 
 .banner {position: absolute;
 top: 0;
 z-index: 1;
-width:100% ;
-}
+width:100% ;}
+
+
+
 .banner img {width:100%;}
 
+
+
+
 .nav {position: relative;
-  z-index:200;
-  }
+  z-index:200;}
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+nav {font-size: 10px;}
+h1 {font-size: 14px;}
+.contenedor {padding-top: 1rem;}
+.peliculas {margin: 6rem 0 0 0 !important;}
+.peliculas img {width: 20%;}}
+
 
