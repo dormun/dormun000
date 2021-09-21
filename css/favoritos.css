@@ -1,17 +1,15 @@
 *{
     box-sizing: border-box;
+    background-color: black;
 }
 
 .titles {font-size: x-large; 
     color:white;}
 
-    body {font-family: 'Lato', sans-serif!important;}
+    body {font-family: 'Lato', sans-serif;
+        margin: 0;} 
 
-.position { padding-right: 100px;
-padding-left: 100px;
-padding-bottom: 100px;
-padding-top: 100px;
-border-style: dotted;}
+
 
 .contenedor{ 
     display: flex;
@@ -27,11 +25,15 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6334908963585
 
 }
 
-.titulo {margin-left: 3rem;}
+.titulo {margin-left: 3rem;
+    position: relative;
+    z-index:200;}
 
 
-.nav a{ margin-right: 2rem; 
-    margin-top:2rem;}
+    .nav a{ margin-right: 2rem; 
+        margin-top:2rem;
+        color: white;
+        text-decoration: none;}
 
 
 
