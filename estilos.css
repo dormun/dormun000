@@ -54,17 +54,13 @@ header {height: 30%}
 
 
 
-.art1{width: 100%; justify-content: space-between;}
 
 
 
 .peliculas { 
-width: 80%;
-display: block;
-justify-self: center; 
 position: absolute;
-z-index:400;
 margin: 750px auto 0 auto!important;}
+
 
 
 
