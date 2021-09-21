@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    background-color: black;
 }
 
 
@@ -9,13 +10,9 @@ img{
 .titles {font-size: x-large; 
     color:white;}
 
-    body {font-family: 'Lato', sans-serif!important;}
+    body {font-family: 'Lato', sans-serif;
+        margin: 0;}
 
-.position { padding-right: 100px;
-padding-left: 100px;
-padding-bottom: 100px;
-padding-top: 100px;
-border-style: dotted;}
 
 .contenedor{ 
     display: flex;
@@ -31,11 +28,15 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6334908963585
 
 }
 
-.titulo {margin-left: 3rem;}
+.titulo {margin-left: 3rem;
+    position: relative;
+    z-index:200;}
 
 
-.nav a{ margin-right: 2rem; 
-    margin-top:2rem;}
+    .nav a{ margin-right: 2rem; 
+        margin-top:2rem;
+        color: white;
+        text-decoration: none;}
 
 
 
@@ -46,7 +47,7 @@ header {height: 30%}
     flex-direction: row;
     justify-content: space-between;
     height: 550px;
-    background-color: rgba(131, 151, 175, 0.603);
+    background-color: black;
     padding: 12px;
     text-decoration: none;
 }
@@ -59,7 +60,7 @@ header {height: 30%}
     font-weight: bold;
 }
 .detallePelisParrafo{
-    color: black;
+    color: wheat;
     font-size: 20px;
     font-family: monospace;
     text-align: justify;
@@ -70,8 +71,4 @@ header {height: 30%}
     padding: 12px;
     width: 70%;
     flex-direction: column;
-}
-
-@media(min-width:426px){
-    
 }
