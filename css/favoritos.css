@@ -41,3 +41,28 @@ header {height: 30%}
 img{
     height: 600px;
 }
+.main-footer{
+    text-decoration: none;
+    background: cadetblue;
+    border-radius: 20px 20px 0 0;
+    padding: 25px 0;
+}
+.main-footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    background-color: cadetblue;
+}
+.main-footer li {
+    border-right: 1px solid #fff;
+    text-transform: capitalize;
+}
+.main-footer a{
+    background-color: cadetblue;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 2px 10px;
+}
