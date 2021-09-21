@@ -72,3 +72,8 @@ header {height: 30%}
     width: 70%;
     flex-direction: column;
 }
+.calification{
+    font-weight: bold;
+    color: rgb(179,154,240);
+}
+
